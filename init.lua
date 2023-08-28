@@ -4,5 +4,5 @@
 # To change the command name, change the name of the function (VimScode)
 
 vim.cmd([[command! -nargs=0 VimScode :lua require("pathto/VimsCode").open_in_vscode()]])
-vim.cmd([[command! -nargs=0 IdeaCode :lua require("mattallen.VimScode").open_in_jetbrains()]])
+vim.cmd([[command! -nargs=0 VimBrain :lua require("mattallen.VimScode").open_in_jetbrains()]])
 
