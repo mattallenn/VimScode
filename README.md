@@ -1,12 +1,12 @@
 # VimScode
-Neovim plugin to open VScode in current directory  
+Neovim plugin to open VScode (or Jetbrains) in current directory  
 
 This project was created to help debug code easier, without having to manually open VScode and goto the correct directory etc.  
 Plenty of people prefer to use a debugger within nvim such as `nvim-dap` to debug, but sometimes having a fully-fledged IDE can be beneficial.
 
 ## Usage
 1. Navigate to desired directory
-2. Run `:VimScode`
+2. Run `:VimScode` or `:VimBrain` for Jetbrains
 3. That's it!
 
 If you wish to change the name of the command (default is `:VimScode`), just change VimScode (inbetween `-nargs=0` and `:lua`) to whatever your please
